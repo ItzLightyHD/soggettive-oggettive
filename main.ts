@@ -150,11 +150,11 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.muro, function (sprite, otherSpr
     }
 })
 let sub__lvl_ = 0
-let periodo__lvl_ = 0
-let pesce1__lvl_: Sprite = null
-let frase__lvl_: Sprite = null
 let destra__lvl_: Sprite = null
 let sinistra__lvl_: Sprite = null
+let periodo__lvl_ = 0
+let frase__lvl_: Sprite = null
+let pesce1__lvl_: Sprite = null
 scene.setBackgroundImage(img`
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
@@ -278,21 +278,6 @@ scene.setBackgroundImage(img`
     5555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
     `)
 tiles.setCurrentTilemap(tilemap`level2`)
-sinistra__lvl_ = sprites.create(img`
-    c c 
-    c c 
-    `, SpriteKind.muro)
-destra__lvl_ = sprites.create(img`
-    c c 
-    c c 
-    `, SpriteKind.muro)
-frase__lvl_ = sprites.create(img`
-    9 9 
-    9 9 
-    `, SpriteKind.Player)
-let Alleato__lvl_ = sprites.create(img`
-    3 
-    `, SpriteKind.alleato)
 pesce1__lvl_ = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . c c c c . . . . 
@@ -315,8 +300,16 @@ pesce1__lvl_.setPosition(80, 85)
 scaling.scaleToPercent(pesce1__lvl_, 75, ScaleDirection.Uniformly, ScaleAnchor.Middle)
 controller.moveSprite(pesce1__lvl_)
 Alleato__lvl_.setPosition(147, 109)
-frase__lvl_.y = 45
+frase__lvl_.y = 38
 periodo__lvl_ = 1
+sinistra__lvl_ = sprites.create(img`
+    c c 
+    c c 
+    `, SpriteKind.muro)
+destra__lvl_ = sprites.create(img`
+    c c 
+    c c 
+    `, SpriteKind.muro)
 sinistra__lvl_.setPosition(12, 80)
 destra__lvl_.setPosition(142, 83)
 nuova_frase__lvl_(periodo__lvl_)
