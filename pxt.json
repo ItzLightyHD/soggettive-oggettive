@@ -1,6 +1,6 @@
 {
-    "name": "Soggettive e Oggettive - Il giusto ago",
-    "description": "",
+    "name": "Soggettive e Oggettive - La giusta esca",
+    "description": "Uno tra i tanti livelli di un videogioco per imparare la grammatica.",
     "dependencies": {
         "device": "*",
         "arcade-text": "github:microsoft/arcade-text#v1.3.0",
