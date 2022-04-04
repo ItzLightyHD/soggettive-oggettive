@@ -299,13 +299,6 @@ pesce1__lvl_ = sprites.create(img`
 pesce1__lvl_.setPosition(80, 85)
 scaling.scaleToPercent(pesce1__lvl_, 75, ScaleDirection.Uniformly, ScaleAnchor.Middle)
 controller.moveSprite(pesce1__lvl_)
-frase__lvl_ = sprites.create(img`
-    9 9 
-    9 9 
-    `, SpriteKind.Player)
-let Alleato__lvl_ = sprites.create(img`
-    3 
-    `, SpriteKind.alleato)
 Alleato__lvl_.setPosition(147, 109)
 frase__lvl_.y = 38
 periodo__lvl_ = 1
