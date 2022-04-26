@@ -3,15 +3,6 @@
 
 > Open this page at [https://itzlightyhd.github.io/soggettive-oggettive/](https://itzlightyhd.github.io/soggettive-oggettive/)
 
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/itzlightyhd/soggettive-oggettive** and import
-
 ## Edit this project ![Build status badge](https://github.com/itzlightyhd/soggettive-oggettive/workflows/MakeCode/badge.svg)
 
 To edit this repository in MakeCode.
